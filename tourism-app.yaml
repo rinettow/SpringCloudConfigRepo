@@ -3,3 +3,9 @@ spring:
       name: tourism-app
 server:
   port: 8081
+eureka:
+   client:
+      serviceUrl:
+         defaultZone: http://localhost:8761/eureka
+      instance:
+      preferIpAddress: true  
